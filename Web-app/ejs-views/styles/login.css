@@ -1,0 +1,65 @@
+* {
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+  }
+
+  body {
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+
+
+html {
+    display:flex;
+    align-items:center;
+    height:100%;
+    text-align: center;
+  }
+  
+  .log-in{
+    padding:50px 0;
+  }
+  
+  .log-in form {
+    max-width:800px;
+    padding:50px 70px;
+    border-radius:10px;
+    box-shadow:4px 4px 15px rgba(0, 0, 0, 0.2);
+    background-color:#b3c6ff;
+  }
+  
+  .log-in form h3 {
+    margin-bottom:30px;
+  }
+  
+  .log-in .item {
+    border-radius:10px;
+    margin-bottom:25px;
+    padding:10px 20px;
+  }
+  
+  .log-in .btn-log-in {
+    border-radius:40px;
+    padding:10px 30px;
+    font-size:18px;
+    font-weight:bold;
+    background-color:#3f93ff;
+    border:none;
+    color:white;
+    margin-top:14px;
+  }
+  
+  .log-in-a {
+    margin-top: 25px;
+}
+.log-in-a a {
+     color: #003380;
+ }
+
+ .log-in a:hover {
+    color: white;
+ }
+
+ 

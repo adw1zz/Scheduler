@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/new.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <%- include('../templates/header.ejs') %>
+
+    <form method="post">
+        <div class="plan_form">
+            <div>
+                <input name="date" class="input_date" type="date" id="input-datetime">
+                <input name="time" class="input_date" type="time" id="input-datetime">
+            </div>
+            <textarea name="text" class="input_text" placeholder="What are your plans for the future?"></textarea>
+           <div>
+            <button class="form_button" type="submit">SUBMIT</button>
+           </div> 
+        </div>
+    </form>
+
+</body>
+</html>

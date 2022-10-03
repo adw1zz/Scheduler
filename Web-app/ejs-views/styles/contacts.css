@@ -1,0 +1,132 @@
+* body {
+    background: linear-gradient(45deg, #EECFBA, #C5DDE8); /* Basic */
+    background: -o-linear-gradient(45deg, #EECFBA, #C5DDE8); /* Opera */
+    background: -ms-linear-gradient(45deg, #EECFBA, #C5DDE8); /* Internet Explorer */
+    background: -moz-linear-gradient(45deg, #EECFBA, #C5DDE8); /* Mozilla Firefox */
+    background: -webkit-linear-gradient(45deg, #EECFBA, #C5DDE8); /* Webkit Based Browsers */
+    min-height: 100%;
+}
+
+/* header */
+
+.panel{
+    background-color: rgb(99, 155, 177);
+    height: 46px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: table;
+}
+
+.rout{
+    text-align: center;
+    padding-top: 0.25px;
+}
+
+.home{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    margin-right: 40px;
+}
+
+.new_plan{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.login_logout{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    margin-left: 40px;
+}
+
+.contacts{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.about{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+    font-weight:600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:25px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.contacts:hover{
+    color: rgb(161, 228, 255);
+}
+
+.about:hover{
+    color: rgb(161, 228, 255);
+}
+
+.login_logout:hover{ 
+    color: rgb(161, 228, 255);
+}
+
+.new_plan:hover{
+    color: rgb(161, 228, 255);
+}
+
+.home:hover{
+    color: rgb(161, 228, 255);
+}
+
+/* body */
+
+.div_contacts{
+    background-color:  rgb(102, 167, 192);
+    display: table;
+    height: 60px;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.tg,.git,.discord{
+    color:rgb(233, 255, 255);
+    font-weight: 600;
+    font-family: URW Chancery L, cursive;
+    margin:3px;
+    margin-left: 10px;
+}
+
+.tg a,.git a,.discord a{
+    text-decoration: none;
+    color:rgb(233, 255, 255);
+}
+
+.git_link:hover{
+   color: #EECFBA;
+}
+
+.tg_link:hover{
+    color: #EECFBA;
+}
+
+.discord_link:hover{
+    color: #EECFBA;
+}

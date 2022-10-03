@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../styles/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduler</title>
+</head>
+<body>
+
+    <%- include('../templates/header.ejs') %>
+    
+    <container id="pl">
+        <% if (posts.length) { %>
+            <% posts.forEach(({date,time,text,id}) =>{ %>
+            <div class="plan">
+                <div>
+                    <span class="date_time"><%= date %></span>
+                    <span class="date_time"><%= time %></span>
+                </div>
+                <a class="delete" href="#" data-id="<%= id %>">Delete</a>
+                <a class="edit" href="#">Edit</a>
+                <p class="text"><%= text %></p>
+                
+            </div>
+            <% }) %>
+        <% } %>
+    </container>
+
+    <script src="../scripts/editPosts.js"></script>
+</body>
+</html>
