@@ -13,4 +13,3 @@ There are some packeges for for different purposes:
 
 Database: MongoDb.
 
-So, if you want to test this app you can create a cluster using MongoDb website and replace one string with your connetion link.
